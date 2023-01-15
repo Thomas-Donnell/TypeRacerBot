@@ -26,8 +26,8 @@ driver.switch_to.window(driver.window_handles[0])
 ##code to log into account
 
 driver.find_elements_by_xpath("/html/body/div[1]/div/div[2]/table/tbody/tr/td[3]/div/div[2]/div[2]/div[1]/a[2]")[0].click()
-driver.find_elements_by_xpath("/html/body/div[5]/div/div/div[3]/div/div[1]/div/table[1]/tbody/tr[2]/td/div/table/tbody/tr[1]/td[2]/input")[0].send_keys("bot_daddy")
-driver.find_elements_by_xpath("/html/body/div[5]/div/div/div[3]/div/div[1]/div/table[1]/tbody/tr[2]/td/div/table/tbody/tr[2]/td[2]/table/tbody/tr[1]/td/input")[0].send_keys("Midge_123")
+driver.find_elements_by_xpath("/html/body/div[5]/div/div/div[3]/div/div[1]/div/table[1]/tbody/tr[2]/td/div/table/tbody/tr[1]/td[2]/input")[0].send_keys("Username")
+driver.find_elements_by_xpath("/html/body/div[5]/div/div/div[3]/div/div[1]/div/table[1]/tbody/tr[2]/td/div/table/tbody/tr[2]/td[2]/table/tbody/tr[1]/td/input")[0].send_keys("Password")
 driver.find_elements_by_xpath("/html/body/div[5]/div/div/div[3]/div/div[1]/div/table[1]/tbody/tr[2]/td/div/table/tbody/tr[4]/td[2]/table/tbody/tr/td[1]/button")[0].click()
 driver.find_elements_by_xpath("/html/body/div[6]/div/div/div[1]")[0].click() #closes pop up window
 
